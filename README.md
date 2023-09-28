@@ -1,4 +1,4 @@
-# Polar-Dash: Hacktoberfest 2023 Project
+> # Polar-Dash: 🎃 Hacktoberfest 2023 Project 👻
 
 Welcome, Arcady colleagues, to the "Polar-Dash" Hacktoberfest 2023 project! 🚀
 
