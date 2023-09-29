@@ -18,8 +18,8 @@ This repository is dedicated to the creation of "Polar-Dash," an exciting single
 ## Project Overview
 
 - **Name:** Polar-Dash
-- **Objective:** To create a single-page quiz application using React for Hacktoberfest 2023.
-- **Hardware Requirements:** Only one laptop is needed to contribute.
+- **Objective:** To create a single-page-app for tablet quiz application using React for Hacktoberfest 2023.
+- **Hardware Requirements:** A tablet with Google Chrome as webbrowser
 
 - **Hacktoberfest Credits**: Make sure to register @ https://hacktoberfest.com/
 
