@@ -2,6 +2,9 @@
 
 Welcome, Arcadians, to the "Polar-Dash" Hacktoberfest 2023 project! 🚀
 
+![image](https://github.com/ArcadyRob/polar-dash/assets/108736995/dff8b205-efdb-4f1f-b055-fe8ce225a2b6)
+
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
