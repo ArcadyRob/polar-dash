@@ -38,11 +38,12 @@ To get started with contributing to "Polar-Dash," follow these steps:
    git clone https://github.com/your-username/polar-dash.git
    ```
 
-3. **Install Dependencies:** Navigate to the project's root directory and install the required dependencies.
+3. **Install Dependencies:** Navigate to the project's root directory, install the required dependencies and build the project.
 
    ```bash
    cd polar-dash
    npm install
+   npm run build
    ```
 
 4. **Start Development Server:** Start the development server to see the app in action.
