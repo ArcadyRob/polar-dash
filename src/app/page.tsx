@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Highscore from "../../components/Highscore/Highscore";
+import Highscore from "@/components/Highscore/Highscore";
 
 export default function Home() {
   return (
@@ -11,9 +11,13 @@ export default function Home() {
         <p className='color--on-tertiary'>Ready player one...</p>
         <Highscore highscores={
           [
-            {username: "rubendijkstra", score: 100},
+            {username: "rubendijkstra", score: 10},
             {username: "vincentbeekhuis", score: 88},
             {username: "roberthoekstra", score: 10},
+            {username: "robertsjoekstra", score: 10},
+            {username: "robertswagstra", score: 20},
+            {username: "henkwowstra", score: 50},
+            {username: "coolstra", score: 70},
           ]
         }></Highscore>
       </div>
