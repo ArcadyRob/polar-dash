@@ -204,18 +204,3 @@ p {
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
-
-.scrolling-text {
-    white-space: nowrap;
-    overflow: hidden;
-    animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}

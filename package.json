@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-fast-marquee": "^1.6.1"
   },
   "devDependencies": {
     "@types/node": "latest",
