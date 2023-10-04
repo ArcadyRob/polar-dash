@@ -4,7 +4,7 @@ interface highscoreProps {
   highscores: { username: string; score: number }[];
 }
 
-function highscore({ highscores }: highscoreProps) {
+function Highscore({ highscores }: highscoreProps) {
   return (
     <div>
       <h2>Highscores</h2>
@@ -19,4 +19,4 @@ function highscore({ highscores }: highscoreProps) {
   );
 }
 
-export default highscore;
+export default Highscore;
