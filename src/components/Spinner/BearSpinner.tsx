@@ -6,11 +6,13 @@ export interface BearSpinnerProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-const imageSizes = {
+type SizeKeys = NonNullable<BearSpinnerProps['size']>;
+
+const imageSizes: Record<SizeKeys, number> = {
   sm: 60,
   md: 80,
   lg: 100,
-} as const;
+};
 
 const BearSpinner = ({ size = 'md' }: BearSpinnerProps) => {
   const imageSize = imageSizes[size];
