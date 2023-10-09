@@ -1,5 +1,6 @@
-import { Timer } from '@/components/Timer';
 import Image from 'next/image';
+
+import { BearSpinner } from '@/components';
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
       >
         <h1 className="color--on-tertiary">PolarDash</h1>
         <p className="color--on-tertiary">Ready player one...</p>
-        <Timer />
+        <BearSpinner size="sm" />
+        <BearSpinner />
+        <BearSpinner size="lg" />
       </div>
     </main>
   );
