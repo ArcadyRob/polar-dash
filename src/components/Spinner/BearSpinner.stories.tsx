@@ -3,7 +3,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import BearSpinner, { BearSpinnerProps } from './BearSpinner';
 
 export default {
-  title: 'Spinner/BearSpinner',
+  title: 'Spinners/BearSpinner',
   component: BearSpinner,
 } as Meta;
 
