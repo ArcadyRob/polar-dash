@@ -20,6 +20,7 @@
     "@storybook/addon-interactions": "^7.4.6",
     "@storybook/addon-links": "^7.4.6",
     "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-styling-webpack": "^0.0.5",
     "@storybook/blocks": "^7.4.6",
     "@storybook/nextjs": "^7.4.6",
     "@storybook/react": "^7.4.6",
@@ -28,11 +29,14 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "css-loader": "^6.8.1",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",
+    "postcss-loader": "^7.3.3",
     "sass": "^1.68.0",
     "storybook": "^7.4.6",
+    "style-loader": "^3.3.3",
     "tailwindcss": "latest",
     "typescript": "latest"
   }
