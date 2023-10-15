@@ -7,12 +7,13 @@ Welcome, Arcadians, to the "Polar-Dash" Hacktoberfest 2023 project! 🚀
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Project Overview](#project-overview)
-3. [Getting Started](#getting-started)
-4. [Contributing](#contributing)
-5. [Technical Details](#technical-details)
-6. [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [Technical Details](#technical-details)
+- [License](#license)
 
 ## Introduction
 
@@ -47,6 +48,12 @@ To get started with contributing to "Polar-Dash," follow these steps:
    ```
 
 TODO: Set up instructions for Azure Static WEb App + database (dab cli, connectionstring env var, get access or create your own, etc..)
+
+TODO: Document `dab` cli. For example, you can use 
+`dab add TriviaQuestion --source dbo.TriviaQuestion --permissions "anonymous:read" -c staticwebapp.database.config.json` to add an entity to the API.
+
+TODO: Figure out roles.
+
 
 4. **Start Development Server:** Start the development server to see the app in action.
 
