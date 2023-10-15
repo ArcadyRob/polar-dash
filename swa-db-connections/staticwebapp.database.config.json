@@ -28,7 +28,7 @@
       "authentication": {
         "provider": "StaticWebApps"
       },
-      "mode": "production"
+      "mode": "development"
     }
   },
   "entities": {
@@ -37,6 +37,8 @@
         "object": "dbo.TriviaQuestion",
         "type": "table"
       },
+      "graphql": true,
+      "rest": true,
       "permissions": [
         {
           "role": "anonymous",
@@ -46,7 +48,7 @@
             }
           ]
         }
-      ]
-    }
+      }
+    ]
   }
 }
