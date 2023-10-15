@@ -21,7 +21,7 @@
       "cors": {
         "origins": [
           "http://localhost:4280",
-          "https://calm-hill-09bbb1f03.3.azurestaticapps.net/"
+          "https://proud-desert-0a06b8303.3.azurestaticapps.net/"
         ],
         "allow-credentials": false
       },
@@ -36,16 +36,6 @@
       "source": {
         "object": "dbo.TriviaQuestion",
         "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "TriviaQuestion",
-          "plural": "TriviaQuestions"
-        }
-      },
-      "rest": {
-        "enabled": true
       },
       "permissions": [
         {
