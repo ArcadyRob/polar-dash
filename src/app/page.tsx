@@ -2,7 +2,14 @@ async function getData() {
   let host = process.env.NODE_ENV === 'production' ? 'https://proud-desert-0a06b8303.3.azurestaticapps.net/' : 'http://localhost:4280/';
 
   let res = await fetch(`${host}data-api/rest/TriviaQuestion`);
-  return await res.text();
+  let responseText = await res.text();
+
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error(`Failed to fetch data: (${res.status}:${res.statusText}) ${responseText}`);
+  }
+
+  return responseText;
 }
 
 export default async function Home() {
@@ -22,7 +29,7 @@ export default async function Home() {
             </tr>
           </thead>
           <tbody>
-            {parsedJson.value.map((question: any) => (
+            {parsedJson?.value?.map((question: any) => (
               <tr key={question.Id}>
                 <td>{question.Question}</td>
                 <td>{question.Answer}</td>
