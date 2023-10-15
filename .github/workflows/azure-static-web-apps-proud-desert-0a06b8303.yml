@@ -1,6 +1,7 @@
 name: Azure Static Web Apps CI/CD
 
 on:
+  workflow_dispatch: # TODO: Disable when creating fork PR?
   push:
     branches:
       - main
