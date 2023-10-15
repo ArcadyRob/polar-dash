@@ -46,6 +46,8 @@ To get started with contributing to "Polar-Dash," follow these steps:
    npm run build
    ```
 
+TODO: Set up instructions for Azure Static WEb App + database (dab cli, connectionstring env var, get access or create your own, etc..)
+
 4. **Start Development Server:** Start the development server to see the app in action.
 
    ```bash
