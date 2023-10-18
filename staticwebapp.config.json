@@ -1,0 +1,11 @@
+{
+    "routes": [
+        {
+            "route": "/data-api/*",
+            "allowedRoles": [
+                "anonymous",
+                "authenticated"
+            ]
+        }
+    ]
+}
