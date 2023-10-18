@@ -27,3 +27,6 @@ Temporary Items
 .apdisk
 node_modules
 .next/
+.idea/.gitignore
+.idea/*
+.idea
