@@ -30,3 +30,4 @@ node_modules
 .idea/.gitignore
 .idea/*
 .idea
+.vscode/settings.json
